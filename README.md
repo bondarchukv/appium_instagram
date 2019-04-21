@@ -40,7 +40,7 @@ Took 0m45.994s
 
 ## Notes
 * For this simple test seeing a Security Check or Instagram Home Screen window is treated as a successful login.
-* Environment & scenario configurations, logging, reporting and other useful stuff is out of the scope for this simple application :wink:
+* Environment & scenario configurations, logging, reporting, commented code and other useful stuff is out of the scope for this simple application :wink:
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
