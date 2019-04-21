@@ -28,6 +28,5 @@ class LoginPage(Page):
             self.enter_username(username)
             self.enter_password(password)
             
-            sleep(2)#wait for clear action (not ideal, but helps to skip retrying of click_login)
-            
+            sleep(2)#wait for clear action (not ideal, but helps to skip retrying click_login method)            
             self.click_login()
