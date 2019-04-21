@@ -8,19 +8,19 @@ You need to have these installed in order to run the application:
 `pip install behave`
 * Appium Client for Python
 `pip install Appium-Python-Client`
-* Android Emulator (Adroid Studio with Emulator and SDK will be the easiet way to run it)
+* Android Emulator (Android Studio with Emulator and SDK will be the easiest way to run it)
 * Appium (The Appium's desktop version is recommended as it simplifies the configuration a lot)
 * ChromeDriver for Appium (please make sure to use [a proper chromedriver version](http://appium.io/docs/en/writing-running-appium/web/chromedriver/) )
 
 ## Configuration
-Please edit `scripts\features\environment.py` file with your desired capabilities for appium
-Also please set proper instagram account settings inside `scripts\features\login.feature`
+Please edit `scripts\features\environment.py` file with your desired capabilities for Appium.
+Also please set proper Instagram account settings inside `scripts\features\login.feature`.
 
 ## Run
 Just execute behave inside the `scripts` folder.
 
 ## Test Results
-Sucessful test results should look something like this:
+Successful test results should look something like this:
 ```PS C:\Python27\Scripts> .\behave.exe
 Feature: Instragram Login # features/login.feature:1
   In order to test the Instagram web application
@@ -39,7 +39,7 @@ Took 0m45.994s
 ```
 
 ## Notes
-* For this simple test seeing a Security Check or Instagram Home Screen window is treated as a sucessfull login.
+* For this simple test seeing a Security Check or Instagram Home Screen window is treated as a successful login.
 * Environment & scenario configurations, logging, reporting and other useful stuff is out of the scope for this simple application :wink:
 
 ## License
