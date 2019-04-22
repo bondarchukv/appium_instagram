@@ -3,7 +3,7 @@ Appium_instagram is a sample project that utilizes Python's BDD Behave framework
 
 ## Installation
 You need to have these installed in order to run the application:
-* Python 2.7 or higher with PIP installed
+* Python 2.7 with PIP installed
 * Behave for Python 
 `pip install behave`
 * Appium Client for Python
