@@ -13,11 +13,12 @@ You need to have these installed in order to run the application:
 * ChromeDriver for Appium (please make sure to use [a proper chromedriver version](http://appium.io/docs/en/writing-running-appium/web/chromedriver/) )
 
 ## Configuration
-Please edit `scripts\features\environment.py` file with your desired capabilities for Appium.
+Please edit `scripts\features\environment.py` file with your desired capabilities for Appium.</br>
 Also please set proper Instagram account settings inside `scripts\features\login.feature`.
 
 ## Run
-Just execute behave inside the `scripts` folder.
+Just execute behave inside the `scripts` folder.</br> 
+Please note that android emulator should be already running (if not configured to start automatically by Appium).
 
 ## Test Results
 Successful test results should look something like this:
